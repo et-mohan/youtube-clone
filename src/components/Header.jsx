@@ -3,20 +3,16 @@ export default function Header(){
         <div className="flex justify-between">
             <img src="./youtube-logo-png-46020.png" className="h-14"/>
             <div className="flex justify-between pt-3 gap-3">
-                <input type="search" className="rounded-full border border-grey-900 h-10   pr-20  lg:w-96 md:w-60 focus:w-96 " 
+                <input type="search" className="rounded-full border border-grey-900 h-10   pr-20  lg:w-96 md:w-60 focus:w-96  " 
                 placeholder="     search..."></input>
-                <button className="rounded-full border borfder-grey-200 h-10 w-10 flex items-center justify-center">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" className="w-6 h-6 ">
-                    <path d="M8 1a2 2 0 0 0-2 2v4a2 2 0 1 0 4 0V3a2 2 0 0 0-2-2Z" />
-                    <path d="M4.5 7A.75.75 0 0 0 3 7a5.001 5.001 0 0 0 4.25 4.944V13.5h-1.5a.75.75 0 0 0 0 1.5h4.5a.75.75 0 0 0 0-1.5h-1.5v-1.556A5.001 5.001 0 0 0 13 7a.75.75 0 0 0-1.5 0 3.5 3.5 0 1 1-7 0Z" />
-                    </svg>
-
+                <button className=" rounded-full border borfder-grey-200 h-10 w-10 flex items-center justify-center  active:hidden">
+                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6"> <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" /></svg>
                 </button>
             </div>
             <div className="flex justify-between pt-3 gap-3 pr-2">
                 <button className="rounded-full border border-grey-200 h-10 w-10 flex items-center justify-center">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" d="m15.75 10.5 4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z" />  
                     </svg>
                 </button>
                 <button className="rounded-full border border-grey-200 h-10 w-10 flex items-center justify-center">
